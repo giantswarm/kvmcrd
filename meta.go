@@ -5,9 +5,9 @@ package kvmcrd
 const (
 	Group     = "giantswarm.io"
 	Kind      = "KvmCluster"
-	Name      = "kvmClusters.giantswarm.io"
-	Plural    = "kvmClusters"
-	Singular  = "kvmCluster"
+	Name      = "kvm-clusters.giantswarm.io"
+	Plural    = "kvm-clusters"
+	Singular  = "kvm-cluster"
 	Scope     = "Cluster"
 	VersionV1 = "v1"
 )
