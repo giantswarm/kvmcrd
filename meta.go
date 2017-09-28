@@ -3,11 +3,11 @@ package kvmcrd
 // Metadata to create an operatorkit CRD.
 
 const (
-	Group     = "giantswarm.io"
-	Kind      = "KvmCluster"
-	Name      = "kvm-clusters.giantswarm.io"
-	Plural    = "kvm-clusters"
-	Singular  = "kvm-cluster"
+	Group     = "guest.cluster.giantswarm.io"
+	Kind      = "Kvm"
+	Name      = "kvms.guest.cluster.giantswarm.io"
+	Plural    = "kvms"
+	Singular  = "kvm"
 	Scope     = "Cluster"
-	VersionV1 = "v1"
+	VersionV1 = "v2"
 )
