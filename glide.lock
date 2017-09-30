@@ -1,5 +1,5 @@
-hash: bcbb900af8f95c1669af5c334037171659f032699932da47ba4cbed577498ae1
-updated: 2017-09-27T18:01:48.896144459+02:00
+hash: 4e681762608bf1f121d30bd6fc0399b686083a1a63370f1ccb44b27b829924e0
+updated: 2017-09-30T17:21:07.051176106+02:00
 imports:
 - name: github.com/emicklei/go-restful
   version: ff4f55a206334ef123e4f79bbf348980da81ca46
@@ -16,8 +16,8 @@ imports:
   - spec/kubernetes/kubectl
   - spec/kubernetes/networksetup
   - spec/kubernetes/ssh
-- name: github.com/giantswarm/operatorkit
-  version: 27cc064101e496d87c605990fb2f3534950b84ea
+- name: github.com/giantswarm/microerror
+  version: 5ade94eb4ee35ef72eb9382228470caeddb29989
 - name: github.com/go-openapi/jsonpointer
   version: 46af16f9f7b149af66e5d1bd010e3574dc06de98
 - name: github.com/go-openapi/jsonreference
@@ -35,6 +35,8 @@ imports:
   version: 44145f04b68cf362d9c4df2182967c2275eaefed
 - name: github.com/google/gofuzz
   version: 44d81051d367757e1c7c6a5a86423ece9afcf63c
+- name: github.com/juju/errgo
+  version: 08cceb5d0b5331634b9826762a8fd53b29b86ad8
 - name: github.com/mailru/easyjson
   version: d5b7844b561a7bc640052f1b935f7b800330d7e0
   subpackages:
